@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwiftCart</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Daisy UI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Fontawosome -->
+  <script src="https://kit.fontawesome.com/8292a1600b.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <!-- Navber Section -->
+  <section class="navbar-container bg-base-100 shadow-sm">
+    <div class="navbar lg:w-9/12 mx-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+            <li class="font-bold "><a href="index.html" class="focus:text-[#4832F6] text-[#000000]">Home</a></li>
+          <li class="font-bold "><a href="allproduct.html" class="focus:text-[#4832F6] text-[#000000]">Products</a></li>
+          </ul>
+        </div>
+        <a href="#" class="text-xl font-black text-[#6653F7]">SwiftCart</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li class="font-bold "><a href="index.html" class="focus:text-[#4832F6] text-[#000000]">Home</a></li>
+          <li class="font-bold "><a href="allproduct.html" class="focus:text-[#4832F6] text-[#000000]">Products</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class=""><i class="fa-solid fa-cart-arrow-down text-[#3C4859]"></i></a>
+      </div>
+    </div>
+
+  </section>
+  <!-- Hero Section -->
+  <section class="hero-section-container ">
+    <div>
+      <div class="hero min-h-[600px] bg-[url(./Assets/banner-image.png)] bg-cover bg-center ">
+        <div class="hero-overlay"></div>
+        <div class="flex-col lg:flex-row-reverse  lg:w-9/12 mx-auto">
+          <div class="">
+            <h1 class="text-5xl font-bold text-white">Welcome to SwiftCart!</h1>
+            <p class="py-6 text-white">Discover a world of convenience and savings with SwiftCart, your ultimate online shopping destination. Explore a vast selection of products, enjoy seamless navigation, and experience secure transactions—all in one place. Start shopping today and elevate your online shopping experience with SwiftCart!</p>
+            <button class="btn btn-primary text-white">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Service Provide Section -->
+
+  <section class="bg-[#F9FAFB] ">
+          <div class="lg:w-9/12 mx-auto py-10">
+            <h1 class="text-[#2E3643] text-4xl font-bold text-center mb-4">Why Choose Us</h1>
+            <h5  class="text-[#7C8391] text-[17px]  text-center">We provide the best shopping experience with top-notch services</h5>
+            <div class="service-cart-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  py-10 ">
+              <div class="single-service p-4">
+                <div class="bg-[#FFFFFF] px-5 pb-8  pt-18 relative"> 
+                  <div class="bg-[#EEF2FF] rounded-lg p-4 w-20 border-3 border-[#FFFFFF] flex justify-center items-center absolute -top-6 left-4" ><i class="fa-regular fa-truck text-[#6653F7] text-[28px] "></i></div>
+                  <h4 class="text-[#2E3643] text-[16px] font-bold">Fast Delivery</h4>
+                  <p class="text-[#7C8391] text-[16px] ">Get your orders delivered to your doorstep quickly and efficiently.</p>
+                </div>
+              </div>
+              <div class="single-service p-4">
+                <div class="bg-[#FFFFFF] px-5 pb-8  pt-18 relative"> 
+                  <div class="bg-[#EEF2FF] rounded-lg p-4 w-20 border-3 border-[#FFFFFF] flex justify-center items-center absolute -top-6 left-4" ><i class="fa-regular fa-truck text-[#6653F7] text-[28px] "></i></div>
+                  <h4 class="text-[#2E3643] text-[16px] font-bold">Fast Delivery</h4>
+                  <p class="text-[#7C8391] text-[16px] ">Get your orders delivered to your doorstep quickly and efficiently.</p>
+                </div>
+              </div>
+              <div class="single-service p-4">
+                <div class="bg-[#FFFFFF] px-5 pb-8  pt-18 relative"> 
+                  <div class="bg-[#EEF2FF] rounded-lg p-4 w-20 border-3 border-[#FFFFFF] flex justify-center items-center absolute -top-6 left-4" ><i class="fa-regular fa-truck text-[#6653F7] text-[28px] "></i></div>
+                  <h4 class="text-[#2E3643] text-[16px] font-bold">Fast Delivery</h4>
+                  <p class="text-[#7C8391] text-[16px] ">Get your orders delivered to your doorstep quickly and efficiently.</p>
+                </div>
+              </div>
+              <div class="single-service p-4">
+                <div class="bg-[#FFFFFF] px-5 pb-8  pt-18 relative"> 
+                  <div class="bg-[#EEF2FF] rounded-lg p-4 w-20 border-3 border-[#FFFFFF] flex justify-center items-center absolute -top-6 left-4" ><i class="fa-regular fa-truck text-[#6653F7] text-[28px] "></i></div>
+                  <h4 class="text-[#2E3643] text-[16px] font-bold">Fast Delivery</h4>
+                  <p class="text-[#7C8391] text-[16px] ">Get your orders delivered to your doorstep quickly and efficiently.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  </section>
+
+  <!-- Top Trending Products  -->
+
+  <section>
+    <div class="lg:w-9/12 mx-auto py-10">
+      <h1 class="text-[#2E3643] text-4xl font-bold  mb-2">Trending Now</h1>
+      <div class="service-cart-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  py-10 ">
+                    
+        <div class="card bg-base-100 w-84 shadow-sm">
+          <figure>
+            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <div class="flex justify-between items-center">
+              <div class="bg-[#E0E7FF] text-[#3B25C1] text-[11px] font-bold px-3 py-1 rounded-full  text-center"> <p>Men's Clothing</p></div>
+              <div class=""> <i class="fa-solid fa-star text-[#FED232]"></i>
+                <span class="text-[#5B6473]">3.9 (120)</span>
+              </div>
+            </div>
+            <h2 class="card-title -mb-2 mt-4 truncate text-overflow: ellipsis;" >
+              Card Title JKDNS NSJKDVS SJKDNCVSD SKJCV KSDMCOEW
+            </h2>
+            <p class="font-bold text-[15px]" >$125</p>
+            <div class="card-actions justify-between mt-5">
+              <button class="btn border-1 border-[#DBDEE4] hover:border-[#3B25C1] bg-[#FFFFFF] text-[#5B6473] hover:text-[#3B25C1] lg:w-34 w-28"> <i class="fa-regular fa-eye"></i> Default</button>
+              <button class="btn border-1 border-[#3B25C1] hover:border-[#3B25C1] bg-[#3B25C1] hover:bg-[#FFFFFF] text-white hover:text-[#3B25C1] lg:w-34 w-28 "> <i class="fa-solid fa-cart-plus"></i> Add</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer and Newsletter -->
+   <section class="bg-[#1E2939]">
+    <footer class="footer sm:footer-horizontal  text-[#FFFFFF] py-10 px-5 lg:w-9/12 mx-auto">
+  <nav>
+    <h6 class="footer-title">Services</h6>
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Company</h6>
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Press kit</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Social</h6>
+    <div class="grid grid-flow-col gap-4">
+      <a>
+        <i class="fa-brands fa-twitter text-[24px]"></i>
+      </a>
+      <a>
+        <i class="fa-brands fa-youtube text-[24px]"></i>
+      </a>
+      <a>
+        <i class="fa-brands fa-facebook-f text-[24px]"></i>
+      </a>
+    </div>
+  </nav>
+  <form>
+    <h6 class="footer-title">Newsletter</h6>
+    <fieldset class="w-80">
+      <label>Enter your email address</label>
+      <div class="join">
+        <input
+          type="text"
+          placeholder="username@site.com"
+          class="input input-bordered join-item" />
+        <button class="btn btn-primary join-item">Subscribe</button>
+      </div>
+    </fieldset>
+  </form>
+  
+</footer>
+<aside>
+    <p class="text-center pb-5 text-[#FFFFFF]">Copyright ©2026 - All right reserved by Swiftcart</p>
+  </aside>
+   </section>
+</body>
+
+</html>
